@@ -1,0 +1,71 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.column-header {
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+div {
+    background-color:#ccc;
+    border:1px solid black;
+    cursor:pointer;
+    margin:5px;
+    height:50px;
+}
+
+.blue {
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    float:left;
+}
+
+.red {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    float:left;
+}
+
+.yellow {
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    float:left;
+}
+
+.green {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    float:left;
+}
+
+button {
+    margin: 7px;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+input {
+    margin: 10px;
+    padding: 7px;
+    width: 30%;
+}

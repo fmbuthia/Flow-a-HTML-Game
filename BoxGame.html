@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body onload="init();" >
+
+    <table class="main-container" style="width:100%">
+    </table>
+
+    A new state must follow the rules below<br>
+    - no duplicates of existing column names<br>
+    - first character must be a capital letter between A-F or N-Z<br>
+    - the leading character may (but is not required to) be followed by a number up to four digits long, which must be separated from the leading character by an underscore or dash if used<br>
+    <br>&nbsp;
+    Enter a new state:<br>
+    <input type="text" id="columnname" name="columnname">
+
+    <button onclick="addANewColumn();" type="button">Add State</button>
+
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+[
+  {
+    "sequence": ["red", "green", "yellow", "blue"],
+    "states": {
+      "red": "A",
+      "green": "A",
+      "yellow": "A",
+      "blue": "A"
+    }
+  },
+  {
+    "sequence": ["green", "yellow", "red", "blue"],
+    "states": {
+      "red": "B",
+      "green": "B",
+      "yellow": "A",
+      "blue": "A"
+    }
+  },
+  {
+    "sequence": ["blue", "yellow", "red", "green"],
+    "states": {
+      "red": "A",
+      "green": "A",
+      "yellow": "B",
+      "blue": "B"
+    }
+  },
+  {
+    "sequence": ["yellow", "blue", "green", "red"],
+    "states": {
+      "red": "A",
+      "green": "B",
+      "yellow": "A",
+      "blue": "B"
+    }
+  }
+
+]
